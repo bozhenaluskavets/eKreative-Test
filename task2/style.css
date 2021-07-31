@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 10px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 520px;
+}
+
+form {
+    padding: 30px;
+    box-shadow: 0 0 5px 5px rgba(140, 158, 173, 0.18);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: rgb(90, 109, 198);
+    font: 800 40px "Roboto";
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+h2 {
+    font: 400 21px "Roboto";
+    margin-bottom: 15px;
+}
+
+.password {
+    display: flex;
+    justify-content: space-between;
+}
+
+label {
+    font: 700 14px "Roboto";
+    padding-bottom: 5px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.checkbox label {
+    padding-bottom: 0;
+}
+
+.checkbox input {
+    margin-right: 7px;
+}
+
+.alignCenter {
+    text-align: center;
+}
+
+.signUp {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.signUp p {
+    font: 500 14px "Roboto";
+    margin-right: 5px;
+    text-align: center;
+}
